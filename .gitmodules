@@ -1,3 +1,6 @@
 [submodule "packages/gatsby-source-contentstack"]
 	path = packages/gatsby-source-contentstack
 	url = https://github.com/contentstack/gatsby-source-contentstack
+[submodule "apps/contentstack-gatsby-starter-app"]
+	path = apps/contentstack-gatsby-starter-app
+	url = https://github.com/contentstack/contentstack-gatsby-starter-app.git

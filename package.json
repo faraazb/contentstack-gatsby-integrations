@@ -2,14 +2,15 @@
   "name": "contenstack-gatsby-integrations",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:gsp": "npm run build -w gatsby-source-contentstack",
+    "watch:gsp": "npm run watch -w gatsby-source-contentstack",
+    "develop:starter-app": "npm run develop -w contentstack-gatsby-starter-app"
+  },
   "private": true,
   "dependencies": {},
-  "devDependencies": {
-    "@nx/js": "17.2.8",
-    "nx": "17.2.8"
-  },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ]
 }
