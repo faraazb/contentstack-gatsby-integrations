@@ -1,0 +1,3 @@
+[submodule "packages/gatsby-source-contentstack"]
+	path = packages/gatsby-source-contentstack
+	url = https://github.com/contentstack/gatsby-source-contentstack
